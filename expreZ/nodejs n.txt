@@ -1,0 +1,4 @@
+protocol://subdomain.websitename.tid:port/path?query=string#hash
+
+
+npm config set proxy null
