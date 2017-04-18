@@ -1,8 +1,53 @@
-idea
+
+
+idea	dark.img
 intuition
 visual
 imagination
 story
+
+
+
+
+
+identity
+
+
+
+
+
+
+
+res mng
+vsn ctrl
+prc ipv
+
+
+
+exe
+	build up server
+	 node.js
+		express
+	 	files up down
+	 	get, post
+	 
+	 interactive
+	 session
+	 cookie
+	 form
+	 events
+	 
+
+
+
+	 local tests	
+	 git
+	 python
+	 
+
+	 http tcp/ip 
+	 routers
+	 encryption
 
 
 
@@ -14,25 +59,35 @@ main
 	fun
 	in
 
+
+
+
+
 server
   node.js
  
 
+dz
+
+html
+css
+js
+ jQuery
+
+
 
 
 database
+sql
+xml
+json
 
 
 
-dz
 
 
 
 
 
-code
-
-
-test
 
 
