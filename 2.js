@@ -17,7 +17,7 @@ app.use(AV.express());
 
 app.use('/', function(req,res) {
   res.send('Hello World');
-  // res.sendFile('index.html', {root: path.join(__dirname, '/')});
+  res.sendFile('index.html', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('use');
 
@@ -27,7 +27,7 @@ app.use('/', function(req,res) {
 
 app.get('/', function(req,res) {
   res.sendFile('index.html', {root: path.join(__dirname, '/')});
-  // res.sendFile('2.htm', { root: __dirname + '/' } );
+  res.sendFile('index.html', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('get');
 });
