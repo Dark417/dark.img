@@ -27,6 +27,7 @@ app.use('/', function(req,res) {
 
 app.get('/', function(req,res) {
   // res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  res.sendfile('2.htm', { root: __dirname + '/' } );
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('get');
 });
