@@ -2,11 +2,11 @@
   "name": "dark.img",
   "version": "1.0.0",
   "description": "d",
-  "main": "start.js",
+  "main": "2.js",
   "scripts": {
-    "start": "node start.js"
+    "start": "node 2.js"
   },
-  
+
   "author": "Dark",
   "license": "ISC",
 

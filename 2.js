@@ -8,23 +8,15 @@ var path = require('path');
 
 var app = express();
 
-//
-// app.use(express.static('xxx'));
-// app.use('/pic', express.static('/img'));
-//
-// app.use(express.static('public'));
-// app.use(express.static('files'));
-//
-//
 // console.log(__dirname);
 
-app.use('/', function(req,res) {
-  res.send('Hello World');
-  // res.sendFile('index.html', {root: path.join(__dirname, '/')});
-  // res.writeHead(200, {'Content-Type': 'text/plain'});
-  console.log('use');
-
-});
+// app.use('/', function(req,res) {
+//   res.send('Hello World');
+//   // res.sendFile('index.html', {root: path.join(__dirname, '/')});
+//   // res.writeHead(200, {'Content-Type': 'text/plain'});
+//   console.log('use');
+//
+// });
 
 
 //
