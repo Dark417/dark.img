@@ -19,15 +19,19 @@ app.use(express.static('files'));
 console.log(__dirname);
 
 app.use('/', function(req,res) {
-  // res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('use');
 
 });
 
+if('2.htm'){
+  console.log('2222');
+}
+
 app.get('/', function(req,res) {
-  // res.sendFile('2.htm', {root: path.join(__dirname, '/')});
-  res.sendfile('2.htm', { root: __dirname + '/' } );
+  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  // res.sendFile('2.htm', { root: __dirname + '/' } );
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('get');
 });
