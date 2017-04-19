@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "leanengine": "^2.0.1"
+    "leanengine": "^2.0.1",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": "6.x"
