@@ -8,12 +8,12 @@ var path = require('path');
 
 var app = express();
 
-
-app.use(express.static('xxx'));
-app.use('/pic', express.static('/img'));
-
-app.use(express.static('public'));
-app.use(express.static('files'));
+//
+// app.use(express.static('xxx'));
+// app.use('/pic', express.static('/img'));
+//
+// app.use(express.static('public'));
+// app.use(express.static('files'));
 
 
 console.log(__dirname);
@@ -25,16 +25,16 @@ app.use('/', function(req,res) {
 
 });
 
-if('2.htm'){
+if('index.htm;'){
   console.log('2222');
 }
-
-app.get('/', function(req,res) {
-  res.sendFile('index.html', {root: path.join(__dirname, '/')});
-  // res.sendFile('2.htm', { root: __dirname + '/' } );
-  // res.writeHead(200, {'Content-Type': 'text/plain'});
-  console.log('get');
-});
+//
+// app.get('/', function(req,res) {
+//   res.sendFile('index.html', {root: path.join(__dirname, '/')});
+//   // res.sendFile('2.htm', { root: __dirname + '/' } );
+//   // res.writeHead(200, {'Content-Type': 'text/plain'});
+//   console.log('get');
+// });
 
 
 //
