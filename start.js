@@ -3,8 +3,6 @@
  */
 console.log('oh yeah!');
 
-
-var http = require('http');
 var express = require('express');
 var path = require('path');
 
@@ -21,16 +19,23 @@ app.use(express.static('files'));
 console.log(__dirname);
 
 app.use('/', function(req,res) {
-  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  // res.sendFile('2.htm', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('use');
 
 });
 
 app.get('/', function(req,res) {
-  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  // res.sendFile('2.htm', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('get');
 });
 
-app.listen(8888);
+
+//
+// var staticPath = path.join(__dirname, '/public');
+// app.use(express.static(staticPath));
+
+app.listen(3000, function() {
+  console.log('listening');
+});
