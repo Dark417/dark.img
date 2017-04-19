@@ -85,8 +85,61 @@ json
 
 
 regexp
-
 path-to-regexp
+
+
+
+
+
+419
+
+server
+1 build most basic app	send Hello World!
+   web doc
+
+
+if X, then tutorials
+debug
+	analyze, reason, deduct
+	search
+	change my code?
+
+
+server
+problems
+
+
+
+
+local test completed
+app.use	
+express.static
+res.sendFile(‘1.html’)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
