@@ -6,12 +6,11 @@
   "scripts": {
     "start": "node 2.js"
   },
-
   "author": "Dark",
   "license": "ISC",
-
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "leanengine": "^2.0.1"
   },
   "engines": {
     "node": "6.x"
