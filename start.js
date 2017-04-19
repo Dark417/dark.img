@@ -26,9 +26,7 @@ app.use('/', function(req,res) {
 
 });
 
-if(index.html.exists()){
-  console.log('2222');
-}
+
 //
 // app.get('/', function(req,res) {
 //   res.sendFile('index.html', {root: path.join(__dirname, '/')});
