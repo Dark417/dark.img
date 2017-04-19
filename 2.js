@@ -35,3 +35,8 @@ var app = express();
 app.listen(3000, function() {
   console.log('listening');
 });
+
+app.use(function(err, req, res, next) {
+  console.error(err.stack);
+  res.status(404).send('Something broke!');
+});
