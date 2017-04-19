@@ -16,14 +16,15 @@ var app = express();
 app.use(AV.express());
 
 
-app.use('/', function(req,res) {
+app.use(express.static('public'));
+app.use('/pic', express.static('/img'));
 
+
+app.use('/', function(req,res) {
   res.sendFile('index.html', {root: path.join(__dirname, '/')});
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('use');
-
 });
-
 
 
 app.get('/', function(req,res) {
