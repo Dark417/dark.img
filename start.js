@@ -15,14 +15,14 @@ var app = express();
 
 
 app.use('/', function(req,res) {
-  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  res.sendFile('2.htm');
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('use');
 
 });
 
 app.get('/', function(req,res) {
-  res.sendFile('2.htm', {root: path.join(__dirname, '/')});
+  res.sendFile('2.htm');
   // res.writeHead(200, {'Content-Type': 'text/plain'});
   console.log('get');
 });
